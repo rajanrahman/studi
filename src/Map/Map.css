@@ -1,0 +1,19 @@
+.map {
+  width: 800px;
+  height: 600px;
+  color: black;
+  border-radius: 15px;
+  margin-bottom: 3rem;
+}
+
+.content-box {
+  padding: 1rem 2rem;
+}
+
+@media screen and (max-width: 890px) {
+  .map {
+    margin-top: 3rem;
+    width: 90vw;
+    height: 70vh;
+  }
+}

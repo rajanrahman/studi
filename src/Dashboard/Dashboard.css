@@ -1,0 +1,31 @@
+.dashboard-main {
+  margin-top: 4rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+}
+.person-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.person-container {
+  border: 1.5px white solid;
+  border-radius: 15px;
+  height: 96px;
+  padding: 0.7rem;
+  margin: 0.7rem;
+}
+
+@media screen and (min-width: 891px) {
+  .dashboard-main {
+    margin-top: 2rem;
+  }
+  .person-container {
+    height: 150px;
+    padding: 1.7rem;
+    margin: 1.7rem;
+  }
+}

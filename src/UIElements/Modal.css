@@ -1,0 +1,34 @@
+.sign-up-modal {
+  margin-top: 2rem;
+  width: 30rem;
+  height: 80vh;
+  background: linear-gradient(
+    to bottom,
+    rgba(179, 220, 237, 0.99) 0%,
+    rgba(163, 189, 240, 0.98) 53%,
+    rgba(214, 183, 240, 0.9) 100%
+  );
+  border-radius: 15px;
+  display: flex;
+
+  align-items: center;
+  flex-direction: column;
+  color: white;
+}
+
+.sign-up-modal h1 {
+  margin: 2rem 0;
+}
+
+.sign-up-modal p {
+  margin: 0rem;
+}
+
+@media screen and (max-width: 890px) {
+  .sign-up-modal {
+    margin-top: 0rem;
+    width: 100vw;
+    height: 100vh;
+    border-radius: 0px;
+  }
+}

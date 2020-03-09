@@ -1,0 +1,36 @@
+.sign-up-page {
+  /* background: url("../../assets/images/people-coffee-meeting-team-7096.jpg")
+    no-repeat center center fixed;
+  background-size: cover;
+  
+  width: 100vw;
+  height: 100vh; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.log-in {
+  margin-bottom: 0rem;
+}
+
+.go-back {
+  border: none;
+  margin-top: 1rem !important;
+  font-size: 0.8rem;
+  padding: 0;
+  width: 3.5rem;
+}
+
+.go-back:hover,
+.go-back:active {
+  background: transparent;
+}
+
+@media screen and (max-width: 890px) {
+  .sign-up-page {
+    width: 100%;
+    height: 100%;
+  }
+}

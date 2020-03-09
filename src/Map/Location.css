@@ -1,0 +1,37 @@
+.location-main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.location-main button {
+  margin: 0;
+}
+
+.go-back {
+  border: none;
+  margin-top: 0rem;
+  font-size: 0.8rem;
+  padding: 0;
+  width: 6.5rem;
+}
+
+.go-back:hover,
+.go-back:active {
+  background: transparent;
+}
+
+.zip-input {
+  border: 0;
+  outline: 0;
+  background: transparent;
+  border-bottom: 1px solid white;
+  color: white;
+  font-size: 1rem;
+  margin-bottom: 1rem;
+  text-align: center;
+}
+
+.zip-input::placeholder {
+  color: rgba(255, 255, 255, 0.5);
+}
